@@ -10,8 +10,7 @@ services:
       - MYSQL_DATABASE=eventsProject
     ports:
       - 3306:3306
-    networks:
-      - project
+
 
   backend:
     image: hedi4444/spring:latest
