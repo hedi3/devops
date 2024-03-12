@@ -26,5 +26,5 @@ public class Event implements Serializable {
     Set<Participant> participants;
     @OneToMany(fetch = FetchType.EAGER)
     Set<Logistics> logistics;
-
+// squ_bb00af62bf61b37741983653844a7f858bec76a4
 }
