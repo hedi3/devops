@@ -24,7 +24,7 @@
     <distributionManagement>
         <repository>
             <id>deploymentRepo</id>
-            <url>http://20.124.89.136:8081/repository/maven-releases/</url>
+            <url>http://20.124.89.136:8081/repository/yasserRepo/</url>
         </repository>
     </distributionManagement>
     <dependencies>
