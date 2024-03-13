@@ -28,11 +28,12 @@ pipeline {
 			}
 			
 		}
+	/*
         stage('Nexus') {
 			steps {				
 				sh'mvn clean deploy -Dmaven.test.skip=true -Dresume=false'
 			        }
-	                } 
+	                } */
 	    
        stage('docker build and push') {
             steps {
