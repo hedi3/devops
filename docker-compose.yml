@@ -13,7 +13,7 @@ services:
 
 
   backend:
-    image: hedi4444/spring:latest
+    image: yasser22/yasserrepo:newversion
     depends_on:
       - db
     restart: on-failure
