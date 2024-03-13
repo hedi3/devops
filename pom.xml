@@ -25,7 +25,7 @@
         <repository>
             <id>deploymentRepo</id>
          
-            <url>http://localhost:8081/repository/devops/</url>
+            <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
     <dependencies>
