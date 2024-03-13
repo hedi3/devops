@@ -38,11 +38,11 @@ pipeline {
             steps {
                 sh'''
                 
-                docker build -t stationski:1.0.0 .
+                docker build -t events:1.0.0 .
                 docker login -u "yasser22" -p "123456789" docker.io
 			  
         			
-	 			docker tag stationski:1.0.0 yasser22/yasserrepo:newversion
+	 			docker tag events:1.0.0 yasser22/yasserrepo:newversion
          		docker push yasser22/yasserrepo:newversion
             '''
 	    }
