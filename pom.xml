@@ -20,6 +20,10 @@
     </scm>
     <properties>
         <java.version>1.8</java.version>
+	    	<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+		<sonar.projectKey>tn.esprit.eventsproject:devops</sonar.projectKey>
+		<sonar.host.url>http://192.168.56.3:9000</sonar.host.url>
+		<sonar.login>squ_9f93941220f6e39973c8f26f5eb5e16f0044e377</sonar.login>
     </properties>
     <distributionManagement>
         <repository>
@@ -95,6 +99,9 @@
                     </execution>
                 </executions>
             </plugin>
+		<groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version>
         </plugins>
     </build>
 
