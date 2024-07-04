@@ -23,7 +23,7 @@
 	    	<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 		<sonar.projectKey>tn.esprit.eventsproject:devops</sonar.projectKey>
 		<sonar.host.url>http://192.168.56.3:9000</sonar.host.url>
-		<sonar.login>squ_526e285fe0e4de7849ca77d9bf023fefac3faded</sonar.login>
+		<sonar.login>squ_9f93941220f6e39973c8f26f5eb5e16f0044e377</sonar.login>
     </properties>
     <distributionManagement>
         <repository>
